@@ -21,6 +21,7 @@ function App() {
 
   return (
     <>
+    <h1>Search for an animal type</h1>
       <input
       type='text'
       onChange={(e) => search(e.target.value)}
